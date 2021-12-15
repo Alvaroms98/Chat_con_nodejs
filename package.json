@@ -1,0 +1,21 @@
+{
+  "name": "tarea3_implementacion_chat",
+  "version": "1.0.0",
+  "description": "Implementacion de un chat utilizando los sockets, tanto de ZeroMQ como del broker NATS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NATS",
+    "ZeroMQ",
+    "Chat",
+    "Sockets"
+  ],
+  "author": "Alvaro Moure Sabate",
+  "license": "ISC",
+  "dependencies": {
+    "nats": "^2.4.0",
+    "zeromq": "^5.2.8"
+  }
+}
